@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>FluffyLib</name>
+  <author>Fluffy</author>
+  <url></url>
+  <targetVersion>0.16.1385</targetVersion>
+  <description>Description
+==== 
+FluffyLib contains the functionality for a number of often-used processes required by mods;
+- Bootstrapping code
+- Detouring methods
+- Injecting MapComponents (coming soon)
+
+It is required by a number of my mods, and possibly others. 
+
+Notes
+====
+This is purely a library mod, it won't add anything to your game itself, it just exposes some functionality for other mods. As such, it could be seen as a CommunityCoreLibrary light. 
+Indeed, most of the functionality is at least inspired, if not utterly stolen (detouring code) from CCL. 
+
+IMPORTANT: Modders, if you plan to use this, be aware that this library is MUCH simpler than CCL. That means it's easier to update, but it also gives you fewer options, and doesn't hold
+your hand along the way. For more information, see the Readme.md in the mod's folder.
+
+Known Issues
+====
+Because of the changes to MapComponents in Alpha 16, MapComponent injection is not currently functional. I first need to figure out how this works in the context of A16.
+
+tag:Fluffylicious
+tag:Library
+</description>
+</ModMetaData>

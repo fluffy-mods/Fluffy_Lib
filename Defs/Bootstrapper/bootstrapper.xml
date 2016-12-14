@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+	<ThingDef>
+		<defName>FluffyLib</defName>
+		<category>Building</category>
+		<menuHidden>true</menuHidden>
+		<label>FluffyLib</label>
+		<thingClass>FluffyLib.Bootstrap</thingClass>
+		<inspectorTabs>
+			<li>FluffyLib.Bootstrap</li>
+		</inspectorTabs>
+	</ThingDef>
+</ThingDefs>
